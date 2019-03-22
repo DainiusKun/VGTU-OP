@@ -14,7 +14,7 @@ int main()
         pav.push_back(k);
     }
     for (int &i: pav)
-        cout <<i<<endl;
+        cout <<i<<endl; /// fgfgfgfg
 
     return 0;
 }
