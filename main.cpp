@@ -13,10 +13,9 @@ int main()
         cin>>k;
         pav.push_back(k);
     }
-    pav[3]=6;
-    for (int i: pav)
-        cout <<i<<endl;
+    ///fghfghfghgfhgfh
+    for (int &i: pav)
+        cout <<i<<endl; /// fgfgfgfg
 
-    cout << "Hello world!" << endl;
     return 0;
 }
