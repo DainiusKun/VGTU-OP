@@ -13,7 +13,6 @@ int main()
         cin>>k;
         pav.push_back(k);
     }
-    pav[3]=6;
     for (int &i: pav)
         cout <<i<<endl;
 
